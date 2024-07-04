@@ -382,13 +382,13 @@ FOUR DAY SCHEDULE
   where 'YYYY-MM-DD-site' is the identifier for your workshop,
   e.g., '2015-06-10-esu'.
 -->
-{% if page.etherpad %}
+{% if page.googledoc %}
 <hr/>
 
-<p id="etherpad">
-  <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
+<p id="googledoc">
+  <strong>Google Doc:</strong> <a href="{{page.googledoc}}">{{page.googledoc}}</a>.
   <br/>
-  We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
+  We will use this Google Doc for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 
 {% endif %}
